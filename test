@@ -1,0 +1,1618 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+  <link href="assetslogin/bootstrap.minN.css" rel="stylesheet">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="theme-color" content="#ffc107" />
+  <base href=".">
+  <meta name="description" content="پنجره واحد خدمات الکترونیک آموزش و پرورش" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=6.0, shrink-to-fit=no">
+  <!-- <link rel="stylesheet" href="assetslogin/bootstrap.min.css?1"> -->
+  <!-- <link rel="stylesheet" href="assetslogin/23.css?6"> -->
+  <!-- <link rel="stylesheet" href="assetslogin/loginstyle.css"> -->
+  <script src="assetslogin/jquery.min.js" type="text/javascript"></script>
+  <!-- <script src="assetslogin/notify.min.js" type="text/javascript"></script> -->
+  <!-- <script src="assetslogin/popper.min.js" type="text/javascript"></script> -->
+  <script src="assetslogin/bootstrap.min.js?7" type="text/javascript"></script>
+
+  <script src="assetslogin/bootstrap.bundle.min.js"></script>
+  <script src="assetslogin/jsNew.js?53" type="text/javascript"></script>
+  
+  <script src="assetslogin/sepano-accessiblity-tools.min.js" type="text/javascript"></script>
+  <title>پنجره واحد خدمات الکترونیک وزارت آموزش و پرورش</title>
+<!-- Google tag (gtag.js) -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-LDWLQ2VPSK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LDWLQ2VPSK');
+</script> -->
+</head>
+
+<body class="rtl no-footer m-auto"
+  style="display: flex;flex-direction: column; justify-content: space-between;min-height: calc( 100vh );overflow-x: hidden;">
+
+  <nav class="navbar navbar-expand navbar-light text-center"
+    style="justify-content: center;border: solid 1px #E5E5E5;background-color: #F2FAFF;box-shadow: 1px 1px 10px #ccc;border-radius: 10px;height:70px;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" id="menumobile">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText" style="flex-grow:unset">
+      <img src="assetslogin/pics/headlogo.png" style="width:85px;" />
+      <!-- <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" style="color:#4326F1" target="_blank" href="https://medu.gov.ir">پرتال آموزش و
+                  پرورش</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:#4326F1" href="/help">راهنما</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:#4326F1" onclick="$('#contact').modal('show');GetCaptcha()"
+                  href="javascript:">
+                  تماس با ما
+                </a>
+              </li>
+            </ul> -->
+    </div>
+  </nav>
+  <div class="content-container" id="home">
+    <div id="service1">
+      <div class="loginnew">
+        <div class="row d-flex flex-column justify-content-center align-items-center mx-2">
+          <div class="p-0 col-xl-10 col-lg-10 col-md-11 col-xs-11 col-12 divall1">
+            <div class="row">
+              <div class="col-md-6 col-xs-12">
+                <div class="p-2 colmd6 text-center mb-2">
+                  <div>
+                    <div style="background-color: #fbfbfb;" class="dmob">
+                      <div>
+                        <img class="d-md-none d-xs-block" src="assetslogin/pics/headlogo.png" style="width:65px;" />
+                      </div>
+                      <div class="logo-wrapper">
+                        
+                      <!-- <img src="assetslogin/pics/logomy_w.png?1" class="pt-2 imgmy logo" /> -->
+                        <div class="flowers-container"></div>
+                        
+                      </div>
+                      <img src="assetslogin/my-fajr3.gif" style="width: 130px;" />
+                      <div class="d-none d-md-block" style="font-size: 0.65rem;font-weight: bold; color: #4c6da5;">
+                        پنجره واحد خدمات الکترونیک<br />
+                        وزارت آمـوزش و پـرورش
+                      </div>
+                      <hr class="d-none d-md-block m-2 " />
+                    </div>
+<div class="d-block d-md-none" style="font-size: 0.60rem;font-weight: bold; color: #4c6da5;">
+                        پنجره واحد خدمات الکترونیک
+                        وزارت آمـوزش و پـرورش
+                      </div>
+                    <div>
+                      <div class="imgicon" style="margin-top: 10px !important;">
+                        <button onClick="gotosso(1)" class="btn btn-primary " style="background-color:#1465ae;"
+                          type="button" id="person">
+                          <figure style="margin-bottom: 0;">
+                            <blockquote class="blockquote mb-0">
+                              <p style="margin-right: 10px;">
+                                <img src="assetslogin/pics/icon-06.png" />
+                                <span style="font-size: 0.9rem;"> ورود به صفحه شخصی </span>
+                              </p>
+                            </blockquote>
+                            <figcaption class="bfooter" style="margin-right: 12px;font-size: 0.65rem">
+                              فرهنگیان، اولیاء، دانش آموزان و سایر کاربران
+                            </figcaption>
+                          </figure>
+                        </button>
+                      </div>
+                      <div class=" imgicon">
+                        <button onClick="gotosso(0)" class="btn btn-primary " style="background-color:#01bca9"
+                          type="button" id="soha">
+                          <figure style="margin-bottom: 0;">
+                            <blockquote class="blockquote">
+                              <p style="margin-right:0;">
+                                <img src="assetslogin/pics/soha.png?1" />
+                                <span style="font-size: 0.9rem;"> ورود به پنجره سازمانی </span>
+                              </p>
+                            </blockquote>
+                            <figcaption class="bfooter" style="margin-right: 30px;font-size: 0.65rem;">
+                              مختص امور سازمانی آموزش و پرورش
+                            </figcaption>
+                          </figure>
+                        </button>
+                      </div>
+                      <div class=" imgicon">
+                        <button onClick="gotosso(2)" class="btn btn-primary " style="background-color: #6cb0e2; "
+                          type="button" id="hghoghi">
+                          <figure style="margin-bottom: 0;">
+                            <blockquote class="blockquote">
+                              <p style="font-size: 0.9rem;margin-right: 5px;"><img src="assetslogin/pics/icon-08.png" />
+                                ورود اشخاص
+                                حقوقی </p>
+                            </blockquote>
+                          </figure>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <p style="font-size: 1rem;color:red;cursor: pointer;" class="blink_me mb-0 mt-2"  onClick="gotosso(98)"> دریافت مستقیم کارنامه آزمون نهایی <span class="text-success"></span></p> -->
+                  <div class="mb-2 mt-2 notifshow ">
+                    <span class="dashes"></span>
+                    <span class="text mx-2"> یا </span>
+                    <span class="dashes"></span>
+                  </div>
+                  <div class="showhr imgicon">
+                    <button style="background-color: hsl(202, 100%, 92%);box-shadow: none;" id="btnstudent1"
+                      class="btn">
+                      <div style="color: rgb(0, 0, 0);">
+                        <div class="titledaste"> <span style="font-size: 0.7rem;color:#5493c8" id="titlevrod">
+                            ورود با رمز یک بار مصرف
+                          </span>
+                        </div>
+                      </div>
+                    </button>
+                  </div>
+                  <fieldset class="form-group mt-2 mb-2" style="font-weight: normal; font-size: 0.8rem;">
+                    <div tabindex="-1" class="bv-no-focus-ring">
+                      <div class="row">
+                        <div class="col col-12" style="font-size: 0.7rem;"><a onclick='$("#Terms").modal("show")'
+                            href="javascript:">مطالعه
+                            بیانیه حریم خصوصی</a></div>
+                      </div>
+                    </div>
+                  </fieldset>
+
+                  <div class="modal" id="otpshowmodal" tabindex="-1">
+                    <div class="modal-dialog modal-md">
+                      <div class="modal-content" style="box-shadow: 0px -2px 20px 12px;">
+                        <div class="modal-header" style="    justify-content: space-between;">
+                          <span>ورود با رمز یک بار مصرف</span>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                            style="margin: 0;"></button>
+                        </div>
+                        <div class="modal-body">
+
+                          <div class=" mt-2">
+                            <div id="showramz" class="">
+                              <div>
+                                <form class="av-tooltip tooltip-label-bottom" id="submit_notice"
+                                  style="max-width: 85%; margin: auto;font-size: small;">
+                                  <input type="hidden" required class="hideonotp form-control text-right zindex0 "
+                                    maxlength="20" name="password" id="password" placeholder="رمز عبور">
+                                  <div>
+                                    <div class="input-group fasele-4">
+                                      <span class="input-group-text">
+                                        <img class="dargah" src='assetslogin/avatar.svg' /></span>
+                                      <input type="tel" inputmode="numeric" onkeydown="isNumber(event)" onpaste="validatePaste(event)" maxlength="14"
+                                        id="NationalID" name="NationalID" class="form-control text-right zindex0"
+                                        placeholder="کدملی/کدیکتا">
+                                    </div>
+
+                                    <div class="showonotp input-group"
+                                      style="justify-content: center;font-size: x-small;">
+                                      <div class="">
+                                        <input class="form-check-input" disabled value="3" type="radio" name="typeotp"
+                                          id="typeotp1">
+                                        <label class="form-check-label pr-2" for="typeotp1">
+                                          ارسال به شاد
+                                        </label>
+                                      </div>
+                                      <div class="">
+                                        <input class="form-check-input" value="2" type="radio" name="typeotp"
+                                          id="typeotp2" checked>
+                                        <label class="form-check-label pr-2" for="typeotp2">
+                                          ارسال به بله
+                                        </label>
+                                      </div>
+                                      <div class="">
+                                        <input class="form-check-input" disabled value="1" type="radio" name="typeotp"
+                                          id="typeotp3">
+                                        <label class="form-check-label pr-2" for="typeotp3">
+                                          دریافت پیامک
+                                        </label>
+                                      </div>
+                                    </div>
+
+                                    <p class="m-0 fasele-4" style="color:#AFAFAF;font-size: x-small;"><img
+                                        src="assetslogin/pics/info.png" width="15px" /> شما باید در
+                                      شبکه
+                                      اجتماعی انتخابی حساب کاربری داشته
+                                      باشید.</p>
+                                    <div class="d-flex fasele-4">
+                                      <div class="input-group ml-2" style="width:55%">
+                                        <input type="tel" required inputmode="numeric" onkeydown="isNumber(event)" onpaste="validatePaste(event)"
+                                          class="form-control zindex0 text-right" maxlength="5" name="captchaResponse"
+                                          id="captchaResponse" placeholder="کدامنیتی">
+                                      </div>
+                                      <div onclick="GetCaptcha()" class="input-group"
+                                        style="width:10%; cursor: pointer;border-radius: 0 10px 10px 0">
+                                        <span class="input-group-text"> <img src="assetslogin/reload.svg" width="15px"
+                                            height="20" /></span>
+
+                                      </div>
+                                      <div class="form-control p-0 reloadc">
+                                        <div
+                                          class="imgcaptcha d-none d-md-block justify-content-between align-items-center">
+                                          <img id="captchasrc" loading="lazy" src="assetslogin/Loading.gif" width="80px"
+                                            style="width: 80px;" height="45px" alt="کد" class="captcha"
+                                            onclick="GetCaptcha()" style="cursor: pointer;">
+                                        </div>
+                                        <div class="d-md-none justify-content-between align-items-center">
+                                          <img id="captchasrc2" loading="lazy" src="assetslogin/Loading.gif"
+                                            width="80px" style="width: 80px;" height="45px" alt="کد"
+                                            class="captcha bg-light" onclick="GetCaptcha()" style="cursor: pointer;">
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="d-none" id="hiddenvalue"></div>
+                                  </div>
+                                  <div class="d-flex justify-content-between align-items-center mt-2 mb-3">
+                                    <div class="">
+                                        <input class="form-check-input" value="1" type="checkbox" name="directnorino"
+                                          id="directnorino">
+                                        <label class="form-check-label pr-2" for="directnorino">
+                                          ورود مستقیم به نورینو
+                                        </label>
+                                      </div>
+                                    <button
+                                      id="loginSubmit" type="submit"
+                                      class="btn btn-primary btn-multiple-state btn-shadow m-auto"
+                                      style="width: 60%; background-image: linear-gradient(#6451B9, #6451B9);">
+                                      <span class="label"
+                                        style="font-weight: normal; font-size: 0.8rem;">ورود</span></button>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+
+
+                            <div id="otpshow" style="scale: 0.95 1;display: none;">
+                              <section>
+                                <div class="row text-center m-auto" style="max-width: 98%;">
+                                  <div class="p-0 col col-8"></div>
+                                  <div id="returnramz1" class="p-0 col col-4" style="cursor: pointer;">
+                                    <div style="text-align: left;"><span class="text-nowrap"
+                                        style="font-size: 0.7rem; color: rgb(9, 107, 133);">
+                                        بازگشت</span> <img loading="lazy" src="assets/img/login/return.svg"></div>
+                                  </div>
+                                </div>
+                              </section>
+                              <div style="color: rgb(0, 0, 0);" class="mb-2">
+                                <div class="borderdaste"></div>
+                                <div class="titledaste"> <span style="font-size: 0.8rem;">
+                                    ورود کد ارسالی
+                                  </span></div>
+                              </div>
+
+                              <form class="av-tooltip tooltip-label-bottom" id="submit_notice1"
+                                style="max-width: 85%; margin: auto;">
+                                <div>
+
+                                  <p id="OtpCode1" class="mb-1" style="font-size: 0.8rem;"></p>
+                                  <div class="OtpCode input-group mb-2">
+                                    <span class="input-group-text" style="border-radius: 0 10px 10px 0;"> <img
+                                        class="dargah" src='assetslogin/avatar.svg' /></span>
+                                    <input type="tel" inputmode="numeric"
+                                      style="    border-radius: 10px 0 0 10px !important;" onkeydown="isNumber(event)" onpaste="validatePaste(event)"
+                                      id="OtpCode" name="OtpCode" autocomplete="one-time-code"
+                                      class=" form-control text-right zindex0" placeholder="کد ارسال شده" required
+                                      maxlength="5" />
+                                  </div>
+
+                                  <div class="d-flex fasele-4">
+                                    <div class="input-group ml-2" style="width:60%">
+                                      <input type="tel" required inputmode="numeric" onkeydown="isNumber(event)" onpaste="validatePaste(event)"
+                                        class="form-control zindex0 text-right" maxlength="5" name="captchaResponseotp"
+                                        id="captchaResponseotp" placeholder="کدامنیتی">
+                                    </div>
+                                    <div onclick="GetCaptcha()" class="input-group"
+                                      style="background-color: #D4D8FF;width:10%; cursor: pointer;border-radius: 0 10px 10px 0">
+                                      <span class="input-group-text"> <img class="dargah" src='assetslogin/reload.svg'
+                                          width="15px" height="20" /></span>
+                                    </div>
+                                    <div class="form-control p-0" style="width:30%;">
+                                      <div
+                                        class="imgcaptcha d-none d-md-block justify-content-between align-items-center">
+                                        <img id="captchasrc3" loading="lazy" src="assetslogin/Loading.gif" width="80px"
+                                          style="width: 80px;" height="45px" alt="کد" class="captcha"
+                                          onclick="GetCaptcha()" style="cursor: pointer;">
+                                      </div>
+                                      <div class="d-md-none justify-content-between align-items-center" style="">
+                                        <img id="captchasrc4" loading="lazy" src="assetslogin/Loading.gif" width="80px"
+                                          style="width: 80px;" height="45px" alt="کد" class="captcha bg-light"
+                                          onclick="GetCaptcha()" style="cursor: pointer;">
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="input-group mb-2">
+                                    <div class="col col-12">
+                                      <div id="Mobile1" class="OtpCode"></div>
+                                      <div id="CounterDown"></div>
+                                    </div>
+                                  </div>
+
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2 mb-3"><button
+                                    id="loginSubmit1" type="submit"
+                                    class="btn btn-primary btn-multiple-state btn-shadow m-auto"
+                                    style="width: 70%; background-image: linear-gradient(rgb(94, 204, 219), rgb(89, 194, 208));"><span
+                                      class="spinner d-inline-block"><span class="bounce1"></span> <span
+                                        class="bounce2"></span> <span class="bounce3"></span></span> <span class="label"
+                                      style="font-weight: normal; font-size: 0.8rem;">ورود
+                                    </span></button>
+                                </div>
+                                <fieldset class="form-group mt-2 mb-2">
+                                  <div tabindex="-1" class="bv-no-focus-ring">
+                                    <div class="row">
+                                      <div class="col col-12"><a onclick='$("#Terms").modal("show")' href="javascript:"
+                                          title="حریم خصوصی">مطالعه بیانیه حریم
+                                          خصوصی</a></div>
+                                    </div>
+                                  </div>
+                                </fieldset>
+
+                              </form>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="modal" id="regsistershowmodal" tabindex="-1">
+                    <div class="modal-dialog modal-md">
+                      <div class="modal-content" style="box-shadow: 0px -2px 20px 12px;">
+                        <div class="modal-header" style="justify-content: space-between;">
+                          <span>ثبت نام کاربر</span>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                            style="margin: 0;"></button>
+                        </div>
+                        <div class="modal-body">
+
+                          <div class=" mt-2">
+                            <div id="showramz" class="">
+                              <div>
+                                <form class="av-tooltip tooltip-label-bottom" id="RegSubmit"
+                                  style="max-width: 85%; margin: auto;font-size: small;">
+                                 
+                                  <div>
+                                    <div class="input-group fasele-4">
+                                      <span class="input-group-text">
+                                        <img class="dargah" src='assetslogin/avatar.svg' /></span>
+                                      <input type="tel" inputmode="numeric" onkeydown="isNumber(event)" onpaste="validatePaste(event)" maxlength="14"
+                                        id="nationalIDR" name="NationalIDR" class="form-control text-right zindex0"
+                                        placeholder="کدملی/کدیکتا">
+                                    </div>
+                                    <div class="input-group fasele-4">
+                                      <span class="input-group-text">
+                                        <img class="dargah" src='assetslogin/avatar.svg' /></span>
+                                      <input type="tel" inputmode="numeric" onkeydown="isNumber(event)" onpaste="validatePaste(event)" maxlength="10"
+                                        id="birthDateR" name="birthDateR" class="form-control text-right zindex0"
+                                        placeholder="تاریخ تولد مثلا 13801102">
+                                    </div>
+                                    <div class="input-group fasele-4">
+                                      <span class="input-group-text">
+                                        <img class="dargah" src='assetslogin/avatar.svg' /></span>
+                                      <input type="tel" inputmode="numeric" onkeydown="isNumber(event)" onpaste="validatePaste(event)" maxlength="11"
+                                        id="mobileR" name="mobileR" class="form-control text-right zindex0"
+                                        placeholder="تلفن همراه مثلا 09123456789">
+                                    </div>
+                                    <div class="d-flex fasele-4">
+                                      <div class="input-group ml-2" style="width:55%">
+                                        <input type="tel" required inputmode="numeric" onkeydown="isNumber(event)" onpaste="validatePaste(event)"
+                                          class="form-control zindex0 text-right" maxlength="5" name="captchaResponse"
+                                          id="captchaResponse" placeholder="کدامنیتی">
+                                      </div>
+                                      <div onclick="GetCaptcha()" class="input-group"
+                                        style="width:10%; cursor: pointer;border-radius: 0 10px 10px 0">
+                                        <span class="input-group-text"> <img src="assetslogin/reload.svg" width="15px"
+                                            height="20" /></span>
+
+                                      </div>
+                                      <div class="form-control p-0 reloadc">
+                                        <div
+                                          class="imgcaptcha d-none d-md-block justify-content-between align-items-center">
+                                          <img id="captchasrc5" loading="lazy" src="assetslogin/Loading.gif" width="80px"
+                                            style="width: 80px;" height="45px" alt="کد" class="captcha"
+                                            onclick="GetCaptcha()" style="cursor: pointer;">
+                                        </div>
+                                        <div class="d-md-none justify-content-between align-items-center">
+                                          <img id="captchasrc6" loading="lazy" src="assetslogin/Loading.gif"
+                                            width="80px" style="width: 80px;" height="45px" alt="کد"
+                                            class="captcha bg-light" onclick="GetCaptcha()" style="cursor: pointer;">
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="d-none" id="hiddenvalue"></div>
+                                  </div>
+                                  <div class="d-flex justify-content-between align-items-center mt-2 mb-3">
+                                    
+                                    <button
+                                      id="RegSubmitbtn" type="submit"
+                                      class="btn btn-primary btn-multiple-state btn-shadow m-auto"
+                                      style="width: 60%; background-image: linear-gradient(#6451B9, #6451B9);">
+                                      <span class="label"
+                                        style="font-weight: normal; font-size: 0.8rem;">بررسی</span></button>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+
+
+                            <div id="otpshow" style="scale: 0.95 1;display: none;">
+                              <section>
+                                <div class="row text-center m-auto" style="max-width: 98%;">
+                                  <div class="p-0 col col-8"></div>
+                                  <div id="returnramz1" class="p-0 col col-4" style="cursor: pointer;">
+                                    <div style="text-align: left;"><span class="text-nowrap"
+                                        style="font-size: 0.7rem; color: rgb(9, 107, 133);">
+                                        بازگشت</span> <img loading="lazy" src="assets/img/login/return.svg"></div>
+                                  </div>
+                                </div>
+                              </section>
+                              <div style="color: rgb(0, 0, 0);" class="mb-2">
+                                <div class="borderdaste"></div>
+                                <div class="titledaste"> <span style="font-size: 0.8rem;">
+                                    ورود کد ارسالی
+                                  </span></div>
+                              </div>
+
+                              <form class="av-tooltip tooltip-label-bottom" id="submit_notice1"
+                                style="max-width: 85%; margin: auto;">
+                                <div>
+
+                                  <p id="OtpCode1" class="mb-1" style="font-size: 0.8rem;"></p>
+                                  <div class="OtpCode input-group mb-2">
+                                    <span class="input-group-text" style="border-radius: 0 10px 10px 0;"> <img
+                                        class="dargah" src='assetslogin/avatar.svg' /></span>
+                                    <input type="tel" inputmode="numeric"
+                                      style="    border-radius: 10px 0 0 10px !important;" onkeydown="isNumber(event)" onpaste="validatePaste(event)"
+                                      id="OtpCode" name="OtpCode" autocomplete="one-time-code"
+                                      class=" form-control text-right zindex0" placeholder="کد ارسال شده" required
+                                      maxlength="5" />
+                                  </div>
+
+                                  <div class="d-flex fasele-4">
+                                    <div class="input-group ml-2" style="width:60%">
+                                      <input type="tel" required inputmode="numeric" onkeydown="isNumber(event)" onpaste="validatePaste(event)"
+                                        class="form-control zindex0 text-right" maxlength="5" name="captchaResponseotp"
+                                        id="captchaResponseotp" placeholder="کدامنیتی">
+                                    </div>
+                                    <div onclick="GetCaptcha()" class="input-group"
+                                      style="background-color: #D4D8FF;width:10%; cursor: pointer;border-radius: 0 10px 10px 0">
+                                      <span class="input-group-text"> <img class="dargah" src='assetslogin/reload.svg'
+                                          width="15px" height="20" /></span>
+                                    </div>
+                                    <div class="form-control p-0" style="width:30%;">
+                                      <div
+                                        class="imgcaptcha d-none d-md-block justify-content-between align-items-center">
+                                        <img id="captchasrc3" loading="lazy" src="assetslogin/Loading.gif" width="80px"
+                                          style="width: 80px;" height="45px" alt="کد" class="captcha"
+                                          onclick="GetCaptcha()" style="cursor: pointer;">
+                                      </div>
+                                      <div class="d-md-none justify-content-between align-items-center" style="">
+                                        <img id="captchasrc4" loading="lazy" src="assetslogin/Loading.gif" width="80px"
+                                          style="width: 80px;" height="45px" alt="کد" class="captcha bg-light"
+                                          onclick="GetCaptcha()" style="cursor: pointer;">
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="input-group mb-2">
+                                    <div class="col col-12">
+                                      <div id="Mobile1" class="OtpCode"></div>
+                                      <div id="CounterDown"></div>
+                                    </div>
+                                  </div>
+
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2 mb-3"><button
+                                    id="loginSubmit1" type="submit"
+                                    class="btn btn-primary btn-multiple-state btn-shadow m-auto"
+                                    style="width: 70%; background-image: linear-gradient(rgb(94, 204, 219), rgb(89, 194, 208));"><span
+                                      class="spinner d-inline-block"><span class="bounce1"></span> <span
+                                        class="bounce2"></span> <span class="bounce3"></span></span> <span class="label"
+                                      style="font-weight: normal; font-size: 0.8rem;">ورود
+                                    </span></button>
+                                </div>
+                                <fieldset class="form-group mt-2 mb-2">
+                                  <div tabindex="-1" class="bv-no-focus-ring">
+                                    <div class="row">
+                                      <div class="col col-12"><a onclick='$("#Terms").modal("show")' href="javascript:"
+                                          title="حریم خصوصی">مطالعه بیانیه حریم
+                                          خصوصی</a></div>
+                                    </div>
+                                  </div>
+                                </fieldset>
+
+                              </form>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="col-md-6 col-xs-12 ">
+                <div class="colmd6 p-2 etlaie">
+                  <div id="carouselExampleIndicators" class=" carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" id="slidersInfo"></div>
+                  </div>
+
+                  
+                  <div class="p-2 notifshow" style="font-size: smaller;color: #302f2f; ">
+                    <span class=" ml-1"><a href="#" style="cursor: default;"> تابلو
+                        اعلانات</span></a>
+                    <span class="dashes"></span>
+                    <span class="text mr-1" style="color:#0000008c" id="today"></span>
+                  </div>
+                  <div class="boxnotif">
+                    <div id="notif"
+                      style="color:#7B7B7B;max-height: 300px; width: 100%; background-color: rgb(255, 255, 255); border-radius:0 0 20px 20px;">
+                    </div>
+                    <!-- <div class="p-2 notifshow">
+                        <span class="text"><img src='assetslogin/pics/CalendarDots.png' width="15px" /> رویدادهای
+                          فعال</span>
+                        <span class="dashes"></span>
+                      </div> -->
+                    <div id="roidad" style=" width: 100%;  border-radius: 0px 0px 20px 20px; margin-bottom: 0px;">
+
+                    </div>
+                    <div id="roidadarshiv" style=" width: 100%;  border-radius: 0px 0px 20px 20px; margin-bottom: 0px;">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="bottom: 0;
+    position: fixed;" class="text-center w-100">
+
+    <div class="container-fluid pt-2 pb-2 footer1" style="min-height: 4vh;; background-color: #F2FAFF">
+      <div class="row">
+        <div class="mb-0 copyr text-center col-md-12" style="font-size: 0.6rem;color:#3279b9">
+          <div>
+            مالکیت مادی و معنوی این سایت متعلق به وزارت آموزش و پرورش می باشد.<br>طــراحی، تولیـد و
+            توسعه توسط ایــزایران
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div data-v-11a5be4e="" class="fab"><span data-v-11a5be4e="" class="fab-action-button"><svg data-v-11a5be4e=""
+        xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="53"
+        style="fill: rgb(255, 255, 255);">
+        <path data-v-11a5be4e=""
+          d="M480-720q-33 0-56.5-23.5T400-800q0-33 23.5-56.5T480-880q33 0 56.5 23.5T560-800q0 33-23.5 56.5T480-720ZM360-80v-520q-60-5-122-15t-118-25l20-80q78 21 166 30.5t174 9.5q86 0 174-9.5T820-720l20 80q-56 15-118 25t-122 15v520h-80v-240h-80v240h-80Z">
+        </path>
+      </svg></span> <!----></div>
+
+      <div class="modal" id="updatedatabase" tabindex="-1" data-bs-backdrop="static">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              خطا
+            </div>
+              <div class="alert text-center  mt-4" >
+                <!-- <span style="color:green"> شما در حال انتقال به درگاه دولت من می باشید...</span> -->
+              <p>با توجه به اختلال در اتصال به درگاه دولت، با <b>ورود با رمز یک بار مصرف</b> (در همین صفحه) </b>وارد شوید</p>
+              <!-- <a style="color:#fff" href="https://sso.my.gov.ir/oauth2/authorize?response_type=code&scope=openid profile&client_id=my.medu&state=state1&redirect_uri=https://my.medu.ir/api/Login/callback">
+              <button type="button" style="background-color: #105CA7;" class="btn text-white"
+                data-bs-dismiss="modal">متوجه شدم</button></a> -->
+            </div>
+            <div class="modal-footer">
+              <button type="button" style="background-color: #105CA7;" class="btn text-white"
+                onclick='$("#updatedatabase").modal("hide")' data-bs-dismiss="modal">بستن</button>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+
+  <div class="modal" id="forgotpass" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+
+      <div class="modal-content">
+        <div class="modal-header">
+          فراموشی رمز عبور
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li> با تلفن همراه ثبت شده به نام یکی از والدین، از درگاه دولت وارد شده و در قسمت دانش آموزان روی گزینه
+              تغییر رمز عبور کلیک نمایید.</li>
+            <li>در صورتی که نام دانش آموز در لیست فرزندان نبود، از طریق گزینه افزودن فرزند اقدام به اضافه فرزند نموده و
+              نسبت به تغییر رمز اقدام نمایید.</li>
+            <li>در صورتی که مشخصات فرزند از ثبت احوال تایید نشد، با مراجعه به ثبت احوال نسبت به رفع مشکل اقدام نمایید.
+            </li>
+            <li>تا زمان رفع مغایرت از ثبت احوال، میتوانید با مراجعه به مدرسه محل تحصیل، نسبت به دریافت رمز عبور اقدام
+              نمایید. </li>
+            <li>
+              <a href="https://kandoo.medu.ir/v/NUm3vfj628327" class="text-info" target="_blank">
+                <b-button variant="outline-info">راهنما</b-button></a>
+            </li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" style="background-color: #105CA7;" class="btn text-white"
+            onclick='$("#forgotpass").modal("hide")' data-bs-dismiss="modal">بستن</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="modal fade" id="contact" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content" style="background: #F2F2F2;border-radius: 40px;box-shadow: 0px -2px 20px 12px;">
+        <img alt="" loading="lazy" style="max-width: 100%;" src="/assetslogin/pics/topcontact.webp">
+
+        <div class="modal-body">
+          <div class='row' style="text-align: center;">
+            <div class="col-lg-8 col-12" style="margin-top: 0;">
+              <div class='row' style="text-align: center;">
+                <div class="col-lg-6 col-12" style="margin-top: 0;">
+                  <div class="card-wrappert">
+                    <div class="cardt">
+                      <strong><a rel="noopener noreferrer" href="https://medu.gov.ir/"
+                          target="_blank">medu.gov.ir</a></strong>
+                    </div>
+                    <div class="bottom-bar"></div>
+                    <div class="icon">
+                      <img alt="" width="23px" loading="lazy" src="/assets/img/pages/icons/icon-web.png" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                  <div class="card-wrappert">
+                    <div class="cardt">
+                      <strong><a style="color:#007bff" href='tel:02154914'>02154914 </a></strong>
+                    </div>
+                    <div class="bottom-bar"></div>
+                    <div class="icon">
+                      <img alt="" width="23px" loading="lazy" src="/assets/img/pages/icons/icon-contact-3.png" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-12" style="margin-top: 40px;">
+                  <div class="card-wrappert">
+                    <div class="cardt">
+                      <div><a href="https://ble.ir/mymedusupport_bot" target="_blank">شبکه اجتماعی
+                          بله</a></div>
+                    </div>
+                    <div class="bottom-bar"></div>
+                    <div class="icon">
+                      <img alt="" loading="lazy" src="/assets/img/pages/shareimg/bale.png" width="23px" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-12" style="margin-top: 40px;">
+                  <div class="card-wrappert">
+                    <div class="cardt">
+                      <a href="https://shad.ir/Fanavari_setad" target="_blank">شبکه اجتماعی
+                        شاد</a>
+                    </div>
+                    <div class="bottom-bar"></div>
+                    <div class="icon">
+                      <img alt="" loading="lazy" src="/assets/img/pages/shareimg/shad.png" width="23px" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-12">
+              <div class="card-wrappert">
+                <div class="cardt">تهران،
+                  میدان فردوسی،&nbsp;ابتدای خیابان شهیدسپهبد قرنی،ساختمان شهید رجایی (مرکزی)
+                </div>
+                <div class="bottom-bar"></div>
+                <div class="icon">
+                  <img alt="" width="23px" loading="lazy" src="/assets/img/pages/icons/icon-location.png" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 col-12 mt-4">
+              <div class="card p-2">
+                <div id="shownotsubmit">
+                  <form id="contactform">
+                    <p>در صورت مشکل در ورود به سایت فرم زیر را تکمیل نمایید:</p>
+                    <div class='row' style="text-align: right;">
+                      <div class="col-xxs-12 col-sm-6">
+                        <div class="form-group">
+                          <label for="formGroupExampleInput">کدملی</label>
+                          <input type="text" onkeydown="isNumber(event)" onpaste="validatePaste(event)" required maxlength="15" class="form-control"
+                            name="NationalIdC" id="NationalIdC" placeholder="کدملی">
+                        </div>
+                      </div>
+                      <div class="col-xxs-12 col-sm-6">
+                        <div class="form-group">
+                          <label for="formGroupExampleInput">تلفن همراه</label>
+                          <input type="tel" maxlength="15" required onkeydown="isNumber(event)" onpaste="validatePaste(event)" class="form-control"
+                            name="Mobile" id="Mobile" placeholder="تلفن همراه">
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-group">
+                          <label for="Message">توضیحات <img loading="lazy"
+                              onclick="$('#spansound').show();recognition.start();document.getElementById('microphoneimg').src='assetslogin/microphone1.gif';"
+                              id="microphoneimg" src='assetslogin/microphone.gif' width='50px' />
+                            <span id="spansound" style="display: none;">صحبت کنید</span>
+                          </label>
+                          <textarea rows="4" class="form-control" minlength="40" class="mb-3 "
+                            style="width:100%;border-radius: 0;" required name="Message" id="Message"
+                            placeholder="توضیحات را وارد کنید-حداقل 40 کاراکتر"></textarea>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-6 col-12 text-center m-auto mt-4">
+                        <div class="input-group mb-3">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">کدامنیتی</span>
+                          </div>
+                          <input type="tel" required onkeypress="isNumber(event)" onpaste="validatePaste(event)"  class="form-control" maxlength="5"
+                            name="captchaResponse1" id="captchaResponse1" placeholder="">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-12 text-center m-auto">
+                        <fieldset class="form-group m-0 p-0 d-block d-xs-none mb-2">
+                          <div tabindex="-1" class="bv-no-focus-ring">
+                            <span><img id="captchasrc1" loading="lazy" src="assetslogin/Loading.gif" width="120px"
+                                height="50px" alt="کد" class="captcha bg-light" onclick="GetCaptcha()"
+                                style="cursor: pointer;"></span>
+                            <div class="d-none" id="hiddenvalue1"></div>
+                          </div>
+                        </fieldset>
+                      </div>
+
+                      <div>
+                        <input id="notinansewrs" type="checkbox" onchange="showsabt()">
+                        <span>
+                          پاسخ خود را از <a href="help"> قسمت راهنما و پاسخ های احتمالی </a> پیدا نکردم
+                        </span>
+                      </div>
+                      <div class="col-12 text-center m-auto " style="display: none;" id="sabtbtnc">
+                        <button type="submit" class="btn btn-success">
+                          <span class="label" style="font-weight:normal;">ثبت درخواست</span>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="alert text-center bg-info text-white mt-4" style="display: none;" id="successcontact">
+                  اطلاعات شما با موفقیت ثبت شد. در صورت نیاز کارشناسان ما با شما تماس خواهند گرفت.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button onclick='$("#contact").modal("hide")' type="button" style="background-color: #105CA7;"
+            class="btn text-white" data-dismiss="modal">بستن</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="GotoAuth" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered ">
+      <div class="modal-content " style="border-radius: 20px;width: auto;margin: auto;">
+        <div class="modal-body ">
+          <div class="text-center px-2 ">
+            <span style="color:green"> شما در حال انتقال به درگاه دولت من می باشید...</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="Terms" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content" style="box-shadow: 0px -2px 20px 12px;">
+        <div class="modal-body">
+          <div class="text-justify px-2" style="line-height: 2rem;">
+            <h3 class="text-center mb-4" style="font-size: 22px;">بسمه تعالی</h3>
+            <h4 class="text-success mt-4" style="font-size: 20px;">بيانيه حريم خصوصی و توافقنامه با کاربران:</h4>
+            <div class="text-justify" style="font-size: 14px;">اطلاعات مربوط به هر شخص، حریم خصوصی وی محسوب می‌شود.
+              حفاظت و حراست از اطلاعات شخصی
+              شهروندان در پنجره واحد خدمات الکترونیک وزارت آموزش و پرورش، نه تنها موجب حفظ امنیت کاربران می‌شود، بلکه
+              باعث
+              اعتماد بیشتر و مشارکت آنها در فعالیت‌های جاری می‌گردد.
+            </div>
+            <div class="text-justify mt-2" style="font-size: 14px;">
+              هدف از این بیانیه، از یک سو، آگاه ساختن شما درباره ی نوع و نحوه ی استفاده از اطلاعاتی است که در هنگام
+              استفاده
+              از پنجره واحد خدمات الکترونیک وزارت آموزش و پرورش، از جانب شما دریافت می‌گردد. وزارت آموزش و پرورش خود
+              را
+              ملزم
+              به
+              رعایت حریم خصوصی همه شهروندان و کاربران سامانه دانسته و آن دسته از اطلاعات کاربران را که فقط به منظور
+              ارائه
+              خدمات کفایت می‌کند، دریافت کرده و از انتشار آن یا در اختیار قرار دادن آن به دیگران خودداری می نماید.
+            </div>
+            <div class="text-justify mt-2" style="font-size: 14px;">
+              در طرف مقابل، همه کاربران متعهد به رعایت الزامات قانونی و حقوقی برای حفاظت از اطلاعات کاربری و دسترسی
+              خود
+              هستند.
+              در اختیار گذاشتن حساب کاربری شما به افراد غیر، تخطی از قوانین رسمی کشور محسوب شده و در صورت بروز هر گونه
+              مخاطره
+              یا دسترسی یا تغییر غیر موجه در پرونده ها و اطلاعات شما یا واحد سازمانی تحت نظارت شما، مسئولیت حقوقی
+              هرگونه
+              سوءاستفاده از حساب کاربری تان، به عهده شما خواهد بود.
+            </div>
+
+            <h4 class="text-success mt-4" style="font-size: 20px;">چگونگی جمع آوری و استفاده از اطلاعات کاربران:</h4>
+            <div class="text-justify mt-2" style="font-size: 14px;">
+              <span>الف:</span> اطلاعاتی که از طریق درگاه ملی دولت هوشمند دریافت می‌شود، شامل موارد زير هستند:
+              <br />
+              در پنجره واحد خدمات وزارت آموزش و پرورش، اقلام اطلاعاتی شامل شماره تلفن همراه، تاریخ تولد، کد پستی و کد
+              ملی
+              کاربران از درگاه ملی دولت هوشمند دریافت می نماییم و از این اقلام، جهت احراز هویت کاربران استفاده خواهد
+              شد.
+              <br />اطلاعات دریافتی از درگاه دولت، ملاک عمل در تمام سامانه های وزارت آموزش و پرورش می باشد.
+            </div>
+            <div class="text-justify mt-2" style="font-size: 14px;">
+              <span>ب:</span> برخی اطلاعات ديگر که به صورت خودکار از شما دريافت می‌شود شامل موارد زير می‌باشد:
+              <ul style="list-style-type: none;" class="p-0">
+                <li><i class="text-success glyph-icon simple-icon-check"></i> خدمات الکترونیکی که به آنها مراجعه
+                  می‌کنید.
+                </li>
+                <li><i class="text-success glyph-icon simple-icon-check"></i> نام و نسخه سیستم عامل وbrowser کامپیوتر
+                  شما.
+                </li>
+                <li><i class="text-success glyph-icon simple-icon-check"></i> اطلاعات صفحات بازدید شده.</li>
+                <li><i class="text-success glyph-icon simple-icon-check"></i> تعداد بازدیدهای روزانه در درگاه.</li>
+              </ul>
+              هدف ما از دریافت این اطلاعات استفاده از آنها در تحلیل عملکرد کاربران پنجره واحد می‌باشد تا بتوانیم در
+              خدمت
+              رسانی بهتر عمل کنیم.
+            </div>
+            <h4 class="text-success mt-4" style="font-size: 20px;">امنیت اطلاعات:</h4>
+            <div class="text-justify" style="font-size: 14px;"> متعهدیم که امنیت اطلاعات شما را تضمین نماییم و برای
+              جلوگیری از هر نوع دسترسی
+              غیرمجاز
+              و افشای اطلاعات شما از همه شیوه‌‌های لازم استفاده می‌کنیم تا امنیت اطلاعاتی که به صورت آنلاین گردآوری
+              می‌شود،
+              حفظ نماییم.
+              <br /> لازم به ذکر است در این سامانه ممکن است به سایت های دیگری لینک شوید. توجه داشته باشید تنها سامانه
+              هایی که با دامنه رسمی وزارت آموزش و پرورش (medu.ir و medu.gov.ir) فعالیت می‌کنند تحت حمایت و نظارت وزارت
+              آموزش
+              و پرورش می باشند.
+              <br />اما در مورد سایر سایتها (که روی دامنه medu.ir یا medu.gov.ir نیستند)، دستگاه تعهدی بر حفظ حریم
+              شخصی
+              کاربران در
+              سایت مقصد نخواهد داشت و مراجعه کنندگان می‌بایست به بیانیه حریم خصوصی آن سایت ها مراجعه نمایند.
+            </div>
+
+            <h4 class="text-success mt-4" style="font-size: 20px;">تغييرات در بيانيه حریم خصوصی و توافقنامه کاربران:
+            </h4>
+            <div class="text-justify" style="font-size: 14px;">ما این حق را برای خود محفوظ می‌داریم که بنا به اقتضائات
+              زمانی، این بیانیه را
+              ویرایش
+              نموده و تغییرات خود را اعمال نماییم. در این شرایط شما آخرین تغییرات ما را در بیانیه از طریق سامانه
+              مشاهده
+              نموده و از آن مطلع شوید.
+              (<span class="text-left" style="font-size: 0.8rem;">نسخه 1.0</span>)
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick='$("#Terms").modal("hide")'
+            data-bs-dismiss="modal">بستن</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast-container position-fixed top-0  end-0 p-3">
+    <div id="liveToast" class="toast">
+      <div class="toast-header text-right">
+        <strong class="me-auto m-auto">خطا رمز عبور</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+      </div>
+      <div class="toast-body text-danger">
+
+      </div>
+    </div>
+  </div>
+  <img class="helpimg" src="assetslogin/pics/contact.webp" onclick="$('#contact').modal('show');GetCaptcha()" />
+</body>
+<script>
+  const d = new Date();
+  $('#today').html(' امروز:' + d.toLocaleDateString("fa-IR", { year: "numeric", day: "numeric", month: "numeric" }));
+
+
+  function showsabt() {
+    notinansewrs
+    if ($('#notinansewrs').is(":checked"))
+      $("#sabtbtnc").show()
+    else
+      $("#sabtbtnc").hide()
+  }
+
+  const container = document.querySelector('.flowers-container');
+  const flowerEmojis = ['🌸', '🌼'];
+  // const flowerEmojis = ['🌸', '🌼'];
+
+  function createFlower() {
+    const flower = document.createElement('div');
+    flower.classList.add('flower');
+    flower.textContent = flowerEmojis[Math.floor(Math.random() * flowerEmojis.length)];
+    flower.style.left = Math.random() * 100 + '%';
+    flower.style.top = Math.random() * 100 + '%';
+    container.appendChild(flower);
+
+    setTimeout(() => {
+      flower.remove();
+    }, 1500);
+  }
+
+  // setInterval(createFlower, 400);
+
+  
+</script>
+<style>
+  @font-face {
+    font-family: 'iransans';
+    src: url('assetslogin/fonts/iransans/eot/IRANSansWeb.eot?-rdmvgc');
+    src: url('assetslogin/fonts/iransans/eot/IRANSansWeb.eot?#iefix-rdmvgc') format('embedded-opentype'),
+      url('assetslogin/fonts/iransans/woff/IRANSansWeb(FaNum).woff?-rdmvgc') format('woff'),
+      url('assetslogin/fonts/iransans/ttf/IRANSansWeb.ttf?-rdmvgc') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+  }
+
+  .nav-tabs .nav-link.active {
+    background-color: #17a2b896;
+    color: #fff;
+  }
+
+  .nav-tabs .nav-link {
+    border-color: #8691dc;
+  }
+
+
+  .navinfo {
+    border-radius: 5px;
+    font-size: 0.8rem;
+  }
+
+  .base-timer {
+    margin: auto;
+    position: relative;
+    height: 70px;
+    width: 70px;
+  }
+
+  /* Removes SVG styling that would hide the time label */
+  .base-timer__circle {
+    fill: none;
+    stroke: none;
+  }
+
+  /* The SVG path that displays the timer's progress */
+  .base-timer__path-elapsed {
+    stroke-width: 7px;
+    stroke: grey;
+  }
+
+  .base-timer__label {
+    position: absolute;
+
+    /* Size should match the parent container */
+    width: 70px;
+    height: 70px;
+
+    /* Keep the label aligned to the top */
+    top: 0;
+
+    /* Create a flexible box that centers content vertically and horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Sort of an arbitrary number; adjust to your liking */
+    font-size: 48px;
+  }
+
+
+  .base-timer {
+    position: relative;
+    width: 50px;
+    height: 50px;
+  }
+
+  .base-timer__svg {
+    transform: scaleX(-1);
+  }
+
+  .base-timer__circle {
+    fill: none;
+    stroke: none;
+  }
+
+  .base-timer__path-elapsed {
+    stroke-width: 7px;
+    stroke: grey;
+  }
+
+  .base-timer__path-remaining {
+    stroke-width: 7px;
+    stroke-linecap: round;
+    transform: rotate(90deg);
+    transform-origin: center;
+    transition: 1s linear all;
+    fill-rule: nonzero;
+    stroke: currentColor;
+  }
+
+  .base-timer__path-remaining.green {
+    color: rgb(65, 184, 131);
+  }
+
+  .base-timer__path-remaining.orange {
+    color: orange;
+  }
+
+  .base-timer__path-remaining.red {
+    color: red;
+  }
+
+  .base-timer__label {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+  }
+
+  .imgcaptcha {
+    position: absolute;
+
+  }
+
+  .imgcaptcha1 {
+    position: absolute;
+    top: -70px;
+    left: 8%;
+  }
+
+  .fasele-4 {
+    margin-bottom: 1.5rem !important;
+  }
+
+  .imgicon {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px !important;
+    /* font-family: "BMitra";  */
+  }
+
+  .imgicon .btn {
+    width: 55%;
+    height: 50px;
+    padding: 2px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+  }
+
+
+  @media screen and (max-width: 992px) {
+    .imgicon .btn {
+      width: 80%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .imgicon .btn {
+      width: 100%;
+    }
+    .dmob{display: flex;justify-content: space-around}
+  }
+
+  .imgicon .btn:hover {
+    box-shadow: 0px 0px 6px 5px rgb(20 101 174);
+  }
+
+  .colmd6 {
+    border: solid 1px #E5E5E5;
+    border-radius: 5px;
+    max-height: 550px;
+
+    height: 550px;
+    box-shadow: 1px 1px 10px #ccc;
+  }
+
+  .boxnotif {
+    overflow-y: scroll;
+    max-height: 350px;
+
+    &::-webkit-scrollbar {
+      background-color: #d9edf7 !important;
+      width: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #5cabe5 !important;
+    }
+  }
+
+  .showhr {
+    margin-top: 30px;
+  }
+
+  .reloadc {
+    width: 30%;
+  }
+
+  .etlaie {
+    overflow-y: auto;
+  }
+
+  @media (max-width: 500px) {
+    .etlaie {
+      overflow-y: hidden;
+    }
+
+    .fasele-4 {
+      margin-bottom: 1rem !important;
+    }
+
+    .reloadc {
+      width: 40%;
+    }
+
+    .showhr {
+      margin-top: 2px !important;
+    }
+
+    .navbar {
+      display: none;
+    }
+
+    .colmd6 {
+      background-color: #fff;
+      min-height: auto;
+      height: auto;
+    }
+
+    .imgicon .btn {
+      width: 90%;
+      max-width: 90%;
+    }
+
+    body {
+      width: 98%;
+      background-color: #f9f9f9;
+    }
+  }
+
+  @media (min-width: 780px) {
+    .imgcaptcha {
+      position: absolute;
+    }
+
+  }
+
+  .dargahAll {
+    justify-content: space-between;
+    font-size: 12px;
+    margin: 5px;
+  }
+
+  .dargahAll :hover .dargah {
+    border: solid 1px #6451B9;
+    filter: invert(34%) sepia(15%) saturate(3477%) hue-rotate(217deg) brightness(95%) contrast(86%);
+  }
+
+  .dargahAll .dargah {
+    color: #d4b7b7;
+    border-radius: 50%;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .form-check-input:checked {
+    background-color: #FEC300;
+    border-color: #FEC300;
+  }
+
+  .blink_me {
+    animation: blinker 1s linear infinite;
+  }
+
+  .col-md-4:has(.box) .box:hover {
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .box {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #E5E5E5;
+    border-radius: 20px;
+    background-color: #F9F9F9;
+  }
+
+  .box :hover {
+    color: #6451B9;
+
+  }
+
+  .notifshow {
+    font-size: small;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* عمودی وسط چین */
+  }
+
+  .dashes {
+    flex-grow: 1;
+    border-bottom: 1px dashed #3333331a;
+    /* خط چین */
+  }
+
+  .accordion-button:after {
+    margin-left: 0 !important;
+  }
+
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .blockquote {
+    margin-bottom: 0;
+  }
+
+  .bfooter {
+    font-size: 0.43rem;
+    margin-top: 1px;
+    color: #ffffffe5;
+  }
+
+  .blockquote p {
+    font-size: 0.75rem;
+    color: #fff;
+    text-align: right;
+    font-family: "iransans";
+  }
+
+  #home {
+    margin-top: 30px;
+  }
+
+  .badge {
+    padding: 0.4rem;
+  }
+
+  .c6cb0e2 {
+    background-color: #6cb0e2
+  }
+
+  .c1465ae {
+    background-color: #1465ae
+  }
+
+  .c01bca9 {
+    background-color: #01bca9
+  }
+
+  .ellipsis {
+    font-size: 0.7rem;
+    color: #515152;
+    white-space: nowrap;
+    /* جلوگیری از تجزیه متن به چند خط */
+    overflow: hidden;
+    /* مخفی‌کردن متن اضافی */
+    text-overflow: ellipsis;
+    /* اضافه کردن "..." در انتهای متن */
+    padding: 5px;
+    /* برای فاصله‌گذاری */
+  }
+
+
+  .imgicon figure {
+    margin: 0;
+    width: 100%;
+  }
+
+  .imgicon p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .imgicon img {
+    width: 20px;
+  }
+
+  @keyframes animate {
+    0% {
+      width: 0%;
+    }
+
+    70% {
+      width: 100%;
+    }
+  }
+
+  .asw-menu-btn {
+    left: 40px !important;
+    bottom: 70px !important;
+    background: #135da1 !important;
+  }
+
+  @media (min-width: 1445px) {
+    .divall1 {
+      flex: 0 0 53.333333%;
+      max-width: 53.333333%;
+    }
+  }
+
+  .helpimg {
+    position: fixed;
+    z-index: 500000;
+    left: 40px;
+    bottom: 130px;
+    transition: transform .2s ease;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .imgmy {
+    width: 90px;
+  }
+
+  @media (max-width: 500px) {
+    .modal-body .col-12 {
+      margin-top: 25px;
+    }
+
+    .helpimg {
+      bottom: 20px;
+      right: 15px;
+    }
+
+    .textmy {
+      display: none;
+    }
+
+    .imgmy {
+      width: 60px;
+    }
+
+    .asw-menu-btn {
+      bottom: 20px !important;
+      scale: 0.8;
+    }
+
+    #home {
+      margin-top: 10px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+
+  .ellipsis:hover {
+    color: #1465ae
+  }
+
+  body {
+    font-family: "iransans";
+  }
+
+  .loginnew .fxt-switcher-wrap div:first-child a.switcher-text {
+    border-radius: 0 15px 15px 0;
+    color: #000;
+  }
+
+  .loginnew .fxt-switcher-wrap a.switcher-text {
+    padding: 5px;
+    display: block;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(209, 172, 246)), to(rgb(209, 172, 246)));
+    background-image: linear-gradient(rgb(209, 172, 246), rgb(209, 172, 246));
+    color: #000;
+    color: #ffffff;
+    font-size: 15px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .loginnew .fxt-switcher-wrap div:last-child a.switcher-text {
+    border-radius: 15px 0 0 15px;
+    color: #000;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(183, 219, 244)), to(rgb(183, 219, 244)));
+    background-image: linear-gradient(rgb(183, 219, 244), rgb(183, 219, 244));
+  }
+
+  .borderdaste {
+    border-bottom: 1px dashed #7676;
+    position: relative;
+    width: 100%;
+    top: 14px;
+  }
+
+  .inputuser {
+    max-width: 120px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: -5px;
+  }
+
+  .form-control {
+    height: 50px;
+    border-radius: 5px !important;
+  }
+
+  .form-group {
+    position: relative;
+  }
+
+  .icons {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+  }
+
+  .copyr {
+    color: rgba(39, 50, 122, 1);
+    font-size: 13px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .captcham {
+    background-color: #fff;
+  }
+
+  .captcha {
+    border-radius: 10px;
+    width: 120px;
+  }
+
+
+  .modal-body .card-wrappert {
+    position: relative;
+  }
+
+  .modal-body .cardt {
+    background: white;
+    border-top: 4px solid #3dbdff;
+    border-left: 4px solid #3dbdff;
+    border-right: 4px solid #3dbdff;
+    border-radius: 20px 20px 0 0;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+  }
+
+  .modal-body .bottom-bar {
+    background: #3dbdff;
+    height: 20px;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    height: 10px;
+    width: 60%;
+    margin: auto;
+    z-index: 0;
+    position: relative;
+  }
+
+  .modal-body .icon {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #004a92;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+  }
+
+  .modal-body .icon img {
+    width: 22px;
+  }
+
+  .blink {  animation-name: blink;  animation-duration: 3s;  animation-timing-function: linear;  animation-iteration-count: infinite;}@keyframes blink {  0% {}  25% {    opacity: 0;  }  50% {    opacity: 1;  }  75% {    opacity: 0;  }  100% {    opacity: 1;  }}
+  @keyframes flip {
+  0% { transform: rotateY(0deg); }
+  50% { transform: rotateY(180deg); }
+  100% { transform: rotateY(360deg); }
+}
+
+
+.logo {
+  height: auto;
+  z-index: 1;
+  /* animation: flip 10s infinite; */
+}
+.logo-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+
+.flowers-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.flower {
+  position: absolute;
+      text-shadow: none;
+      -webkit-font-smoothing: antialiased;
+      color-adjust: exact;
+  font-size: 15px;
+  animation: bloom 2.5s ease-out forwards;
+}
+
+@keyframes bloom {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translateY(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2) translateY(-20px);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5) translateY(-50px);
+  }
+}
+
+  </style>
+</html>
